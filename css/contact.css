@@ -63,7 +63,7 @@ body {
 }
 
 .contact-bg {
-  background-image: url(/assets/images/Wave.svg);
+  background-image: url(https://raw.githubusercontent.com/lesiecky/portfolio/main/assets/images/Wave.svg);
 
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
