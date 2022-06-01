@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/contact.css" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/61ee297b33.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-container">
+        <a href="portfolio.html" id="nav-logo">Nikodem.Lesiecki</a>
+        <div></div>
+        <div class="nav-links">
+          <a href="#">ABOUT ME</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+    <section class="contact-container">
+      <div class="contact-bg">
+        <div class="contact-box">
+          <div class="contact-title">
+            <h1>Contact Information</h1>
+            <p>
+              Fill up the form our Team will get back to you within 24 hours
+            </p>
+          </div>
+          <div class="contact-info">
+            <span><i class="fa-solid fa-phone"></i>+48 510459078</span>
+            <span
+              ><i class="fa-solid fa-envelope"></i
+              >lesieckinikodem.contact@gmail.com</span
+            >
+            <span
+              ><i class="fa-solid fa-location-pin"></i>Zacisze 1, 62-800
+              Kalisz</span
+            >
+          </div>
+          <div class="contact-links">
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form
+          action="https://formsubmit.co/lesieckinikodem.contact@gmail.com"
+          method="POST"
+        >
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none" />
+
+          <!-- Diasble Captcha -->
+          <input type="hidden" name="_captcha" value="false" />
+
+          <!-- Thank you page -->
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/portfolio.html"
+          />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <textarea
+            id="message"
+            rows="4"
+            name="comments, questions"
+            placeholder="Write your message"
+            required
+          ></textarea>
+          <button type="submit" class="send-btn">Send</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
