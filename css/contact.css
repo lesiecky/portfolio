@@ -163,10 +163,6 @@ textarea {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.contact-form form input,
-textarea:focus {
-  border-color: var(--amaranth-red);
-}
 
 .send-btn {
   border: none;
